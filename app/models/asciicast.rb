@@ -76,6 +76,10 @@ class Asciicast < ActiveRecord::Base
     theme_name.presence && Theme.for_name(theme_name)
   end
 
+  def owner?(user)
+    user && self.user == user
+  end
+
   private
 
   def generate_secret_token
