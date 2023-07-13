@@ -5,7 +5,7 @@ gem 'rails',                '4.1.5'
 gem 'sass-rails',           '~> 4.0.3'
 gem 'coffee-rails',         '~> 4.0.1'
 gem 'uglifier',             '>= 2.3.1'
-gem 'jquery-rails',         '~> 3.0.4'
+gem 'jquery-rails',         '~> 3.1.5'
 
 gem 'pg',                   '~> 0.14'
 gem 'carrierwave',          '~> 0.8.0'
